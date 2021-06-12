@@ -4,8 +4,22 @@
 - git: fatal: No configured push destination 에러 나올 시 해결 방안
   https://www.python2.net/questions-246949.htm 
 
+- Decorater 꾸며서 새로운 함수
 
-#### 20210625(토) 작업
+#### 20210612(토) 작업
+- 0과 빈문자열""은 false로 취급
+- if a = None: // 파이썬에서의 None은 None = null과 같다. 그래서 false
+- 
+- 파이썬에서 중요한 자료구조 4가지
+- 리스트 = 배열과 같은 개념 / 
+- 리스트에서 연속적으로 인덱스 값 가져오기 : a[0:3] = a의 리스트의 0~2까지의 인덱스값 가져오기, a[3:] = a의 리스트의 3인덱스부터 끝인덱스까지의 값 가져오기. 반대 a[:3](처음부터 2번째까지)
+- 리스트의 값 지우기 : del 리스트[인덱스번호), 리스트.pop(인덱스번호), remove(인덱스 번호가 아니라 value값), 리스트.clear() 모든값을 삭제
+- list for문 실습
+- while문
+- Terminology(전문용어)를 많이 써야한다.
+
+
+#### 20210605(토) 작업
 - 문자열
 - 비교연산(==,<,<=,>=,>,!=), 논리연산(and, or, not), Boolena(True, False)
 - http://3.134.55.142/ncs/ncs.php?class=ncs6&name=임은비
