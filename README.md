@@ -5,13 +5,56 @@
   https://www.python2.net/questions-246949.htm 
 
 - Decorater 꾸며서 새로운 함수
+- 통합 개발 환경(Integrated Development Environment, IDE)
+
+- 제어의 역전 https://madplay.github.io/post/spring-framework-basic-inversion-of-control
+
+#### 20210703(토) 작업
+- 변수사용범위(scope)
+- from 모듈명 import 내가 사용할 함수 as 별칭
+- 
+- sys 모듈의 argv 
+- 지점이 많은 커피숍관리 프로그램일때,
+- 명령프롬프트에서 python a.py 지점명
+- argv = ['a.py','지점명']
+- print('coffee숍 관리', argv[1])
+- 지점명의 파라미터를 가져온다.
+- 1970.1.1.0.0.0 이 기본시간 매초마다 1000씩 증가
+- 스티브잡스가 표준시간을 정의하였으며, 추후 빌게이츠가 IBMPC에 표준시간을 적용
+
+- 자바 스크립트 : setTimeout(함수, 시간(1000분의 1))-5초 뒤 실행, setIntervel 
+- 파이썬에서는 time모듈을 import해서 time.sleep(5) 이렇게 써준다.
+- 다른 pc의 파일을 열고싶을 때,import urllib 후 urlopen(인터넷주소)
+- 크롤링
+- f = urllib.urlopen("http://아마존사이트")
+- f.read() 
+- 
+- if __name__ == '__main__':
+- 
+- 객체지향 특징 : 캡슐화, 상속, 다형성, 추상화
+
+#### 20210626(토) 작업
+- 함수 = 사용자 정의 함수, 내장 함수(print,input,int 등....)
+- 재귀함수 = 자기 자신 안에서 자기 자신을 호출하는 함수.
+- 
+- 트리구조 (게시판, 회사 DB테이블 예시(셀프조인))
+- 
+- 파일 열기 (open), file = open("d/menu.txt", "w"), "a", "r"
+- with open("d/menu.txt", "w") as file: (with문은 close가 필요없다.)
+- 예외처리 (file, network, index 등등)
+- try(실행될 코드), catch(예외처리 부분), else(실행성공시 후처리), finally(무조건 실행되는 코드)
+- 파일 읽기 https://wikidocs.net/26
+- 
+- 모듈 : 표준모듈, 외부모듈(pip install), 사용자 정의 모듈
+- 표준 모듈 - python 설치할 때, 설치되는 모듈(Math, random, sys(하드웨어), os, datetime, time, urllib)
+-  ceil(2.5) = 3, floor(2.5) = 2
 
 #### 20210619(토) 작업
 - 튜플 () 
 - 인덱스에 접근할 수 있다. - 리스트와 동일
 - update 연산 불가, 값을 바꿀수가 없다.
 - 
-- 세트() 중복X, 순서X, 인덱스 접근 불가, 집합 연산만 가능
+- 세트{} 중복X, 순서X, 인덱스 접근 불가, 집합 연산만 가능
 - a = set()
 - 합집합 |, 교집합 &, 차집합 - 
 - a.add(9), a.update([1,3,4,5]), a.remove(값)
