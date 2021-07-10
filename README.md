@@ -9,6 +9,10 @@
 
 - 제어의 역전 https://madplay.github.io/post/spring-framework-basic-inversion-of-control
 
+#### 20210710(토) 작업
+- 클래스
+- STS = Spring Tool Suite
+
 #### 20210703(토) 작업
 - 변수사용범위(scope)
 - from 모듈명 import 내가 사용할 함수 as 별칭
